@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:text="题目二"/>
+    <com.example.administrator.okhttp.fixedGridView
+        android:id="@+id/fixed_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="5"
+        android:verticalSpacing="8dp"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth">
+
+    </com.example.administrator.okhttp.fixedGridView>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"/>
+
+</LinearLayout>

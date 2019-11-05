@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">ListViewNestedGridView</string>
+    <string name="action_settings">Settings</string>
+    <string name="numColumns">5</string><!--gridView 的行数-->
+    <string name="title">题目二</string>
+</resources>
